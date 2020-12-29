@@ -7,5 +7,6 @@
 
 import Foundation
 struct Task:Codable{
+    var id:String?
     let title:String
 }

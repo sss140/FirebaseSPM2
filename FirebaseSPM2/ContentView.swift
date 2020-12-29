@@ -48,7 +48,6 @@ struct ContentView: View {
         }
     }
     
-    
     var body: some View {
         VStack{
             TextField("Enter Task", text: $title)
